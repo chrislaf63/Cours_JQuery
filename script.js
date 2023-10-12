@@ -1,10 +1,9 @@
 $(function(){
-
-
-    $("#p1").click(function(){
-        $('#p5').fadeTo(3000, 0.5);
+    $("#start").click(function(){
+        $("div").slideUp(3000).slideDown(3000).fadeOut(3000).fadeIn(3000);
     });
 
+   
 
    
 });
