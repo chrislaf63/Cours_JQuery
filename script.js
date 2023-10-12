@@ -1,16 +1,8 @@
 $(function(){
 
-    $("#p1").on({
-        mouseenter: function(){
-            $('#p5').hide();
-        },
-        mouseleave: function(){
-            $('#p5').show();
-        },
-        click: function(){
-            $('#p4').hide();
-        }
-        
+
+    $("#p1").click(function(){
+        $('#p5').fadeTo(3000, 0.5);
     });
 
 
