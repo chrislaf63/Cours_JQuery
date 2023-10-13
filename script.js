@@ -1,16 +1,12 @@
 $(function(){
   
-    $("#but1").click(function(){
-
-        ( $("#but2").width(150))
-          
-    
+    $("#start").click(function(){
+   
+        $("p").filter(".special").css("border-color","green");
        
     });
 
-    // $("#but2").click(function(){
-    //     $("#p1").removeClass("red");
-    // });
+   
     
 
 });
